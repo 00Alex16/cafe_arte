@@ -1,0 +1,129 @@
+form{
+ margin: 0 auto;
+ width:450px;
+ margin-bottom: 20px;
+ padding: 10px 20px;
+ border-radius: 7px;
+ background-color: ;
+ box-sizing:border-box;
+ margin-top:20px;
+ text-align: center;
+}
+input,textarea,select{
+ width: 100%;
+ margin-bottom: 20px;
+ padding: 7px;
+ box-sizing:border-box;
+ font-size: 17px;
+ border: none;
+}
+
+form h2{
+ color: #fff;
+ font-size: 40px;
+ margin-bottom: 20px;
+ display:inline-block;
+ font-family: monospace;
+}
+textarea{
+ max-height: 200px;
+ min-height:100px;
+ max-width: 100%;
+}
+
+@media (max-width:480px){
+
+  form{
+   width:100%;
+ } 
+
+}
+
+
+
+nav a:hover{
+	color: black!important;
+}
+
+nav li div a:focus {
+	background-color: #e8d486!important;
+}
+
+/* body {
+	background-color: #0f0e0e;
+	FINALISTAS: fondo6 fondo10 fondo7 fondo13;
+} */
+
+body {
+	background:url(../imagenes/fondo1.jpg);
+}
+
+.dropdown-menu{
+	font-size: 1.1vw;
+	color: #ba965b;
+}
+
+#navbarSupportedContent{ /* Esto es para forzar el centrado */
+	font-size: 1.1vw;
+	text-align: center;
+	background-color: #a39134;
+}
+
+.menu-centrado{   /* Esto es para forzar el centrado */
+	margin: 0 auto;
+}
+#navbarDropdown{
+	font-size: 1.1vw;
+	color:white;
+}
+.pie-letra{
+	font-size: 1.9vw;
+	color:#ba965b;
+}
+
+#formulario{
+	text-align: left;
+    width: 500px;
+}
+
+#campo{
+
+	color: #c4a887;
+	font-family: Comic Sans MS;
+}
+
+#detalles{
+	color: white; 
+	font-size: 1.8vw; 
+	font-family: Times New Roman;
+}
+
+.modal-body{
+	font-size: 1.3vw;
+}
+
+.modal-header{
+	font-size: 2.2vw;
+}
+
+#modal{
+	font-size: 120%; 
+	font-family: Times New Roman;
+}
+
+#cursor{
+	cursor: pointer; /* Para que aparezca la manito */
+}
+
+.etiquetas{
+	font-size: 1vw;
+	color: #c4a887;
+}
+
+.navbar-toggler{
+
+}
+
+#etiqueta{
+	font-size: 1.2vw;
+}
